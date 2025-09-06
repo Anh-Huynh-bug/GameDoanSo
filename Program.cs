@@ -60,7 +60,7 @@ static int GiaTriNhapVao()
 static int SoNgauNhien()
 {
     Random random = new Random();
-    int numberRandom = random.Next(1, 3);
+    int numberRandom = random.Next(1, 101);
     return numberRandom;
 }
 
